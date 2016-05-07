@@ -21,14 +21,14 @@ public class RecetasActivity extends AppCompatActivity {
 
         List<Receta> lista = new ArrayList<>();
 
-        for (10){
+      /*  for (10){
         Receta r =new Receta();
         r.setTitulo("");
         r.setTitulo("");
 
             lista.add(r);
         }
-
+*/
         return lista;
     }
 
