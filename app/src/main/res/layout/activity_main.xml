@@ -8,12 +8,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="appmobile.yesicocina.yesicocina.MainActivity">
-
-    <!--<TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />-->
+    tools:context="appmobile.yesicocina.yesicocina.MainActivity"
+    android:background="@android:color/background_dark">
 
 
     <ImageView
@@ -22,61 +18,82 @@
         android:layout_gravity="top"
         android:layout_marginBottom="20dp"
         android:scaleType="fitXY"
-        android:src="@drawable/comida2"/>
+        android:src="@drawable/comida2"
+        android:id="@+id/img"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:id="@+id/btn1"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
 
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Recetas"
+            android:textColor="@android:color/background_light"
             android:gravity="center"
-            android:textSize="30dp"/>
+            android:textSize="30dp"
+            android:background="@android:color/holo_red_light"
+            />
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:id="@+id/btn2"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
 
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Recetas"
+            android:text="Que cocino?"
+            android:textColor="@android:color/background_light"
             android:gravity="center"
-            android:textSize="30dp"/>
+            android:textSize="30dp"
+            android:background="@android:color/holo_green_light"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:id="@+id/btn3"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
 
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Recetas"
+            android:text="Comparti tu receta"
+            android:textColor="@android:color/background_light"
             android:gravity="center"
-            android:textSize="30dp"/>
+            android:textSize="30dp"
+            android:background="@android:color/holo_orange_dark"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
+        android:id="@+id/btn4"
+        android:layout_weight="1"
 
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="Recetas"
+            android:text="Info"
             android:gravity="center"
-            android:textSize="30dp"/>
+            android:textColor="@android:color/background_light"
+            android:textSize="30dp"
+            android:background="@android:color/holo_purple"/>
 
     </LinearLayout>
 
